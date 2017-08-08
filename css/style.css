@@ -1,0 +1,29 @@
+
+body {
+  text-align: center;
+  color: white !important
+}
+
+.intro_info {
+  background-color: rgba(32, 122, 101, 1);
+  vertical-align: top !important;
+}
+
+.about_info {
+  background-color: rgba(2, 142, 134, 1);
+  vertical-align: top;
+}
+
+.project_info{
+  background-color: rgba(38, 164, 90, 1);
+  vertical-align: top;
+}
+
+.contact_info {
+  background-color: rgba(102, 201, 153, 1);
+  position: relative;
+}
+
+.resume_dl{
+  background-color: rgba(141, 227, 209, 1);
+}

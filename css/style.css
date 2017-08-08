@@ -1,29 +1,65 @@
 
+html {
+   font-family: 'Vesper Libre', serif;
+ }
+
 body {
   text-align: center;
-  color: white !important
+  color: white;
+  display: flex;
+  justify-content: center !important;
 }
 
 .intro_info {
-  background-color: rgba(32, 122, 101, 1);
-  vertical-align: top !important;
+  background-color: rgba(32, 122, 101, 1) !important;
+  width: 100% !important;
+  height: 760px !important;
 }
 
 .about_info {
   background-color: rgba(2, 142, 134, 1);
   vertical-align: top;
+  width: 100% !important;
+  height: 760px !important;
 }
 
 .project_info{
   background-color: rgba(38, 164, 90, 1);
   vertical-align: top;
+  width: 100% !important;
+  height: 760px !important;
 }
 
 .contact_info {
   background-color: rgba(102, 201, 153, 1);
   position: relative;
+  width: 100% !important;
+  height: 760px !important;
 }
 
 .resume_dl{
   background-color: rgba(141, 227, 209, 1);
+  width: 100% !important;
+  height: 760px !important;
+}
+
+
+.nav-wrapper {
+  background-color: rgba(32, 122, 101, 1) !important;
+  width: 100% !important;
+  height: 760px !important;
+}
+
+.material-icons {
+  font-size: 100px !important;
+  color: black !important;
+  width: 100% !important;
+  height: 781px !important;
+}
+
+.cv_dl{
+  background-color: rgba(159, 252, 223,1) !important;
+  width: 100% !important;
+  height: 781px !important;
+  color: black;
 }

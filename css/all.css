@@ -30,6 +30,37 @@ summary {
   display: block;
 }
 
+
+/**********        MY COLOURS AND CHANGES        **********/
+
+.my_name {
+  background-color: rgba(32, 122, 101, 1) !important;
+}
+
+/*.intro_info .overlay-nav {
+  z-index: 3;
+}*/
+
+.about_info {
+  background-color: rgba(222, 229, 229, 1);
+}
+
+  /*.about-para{
+    width: 75% !important;
+    height: 75% !important;
+    text-align: center !important;
+  }*/
+
+.projects {
+  background-color: rgba(11, 32, 39, 1) !important;
+  color: white !important;
+  text-align: center;
+  margin-bottom: 0.1em;
+  margin: 0;
+  padding: 1px;
+}
+
+
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -484,7 +515,7 @@ nav {
 
 #jumbotron {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 @media (min-width: 12.5em) {
@@ -585,7 +616,7 @@ nav {
 }
 
 .overlay-nav {
-  background-color: #cdcec0;
+  background-color: rgba(11, 32, 39, 1);
   z-index: 999;
   min-width: 100%;
   height: 100%;
@@ -618,8 +649,13 @@ nav {
   height: 200px;
   width: 200px;
   margin-top: 2em;
-  background: url("/img/profile-pic.png") center center no-repeat;
-  background: url("/img/profile-pic.png") center center no-repeat;
+  /*background: url("../img/headshot.jpg") center center no-repeat;
+  background: url("../img/headshot.jpg") center center no-repeat;*/
+}
+
+
+.text-change{
+  text-transform: center !important;
 }
 
 #about-para {
@@ -665,9 +701,12 @@ nav {
 
 .port {
   text-align: center;
-  color: #7a7f82;
+  color: black;
   margin-bottom: 0.1em;
+  margin: 0;
+  padding: 1px;
 }
+
 
 @media (min-width: 12.5em) {
   figure {
@@ -727,8 +766,9 @@ img:hover {
 }
 
 .grey {
-  background-color: #cdcec0;
+  background-color: rgba(222, 229, 229, 1);
   padding-bottom: 1em;
+  color: black !important;
 }
 
 @media (min-width: 12.5em) {
@@ -1050,7 +1090,7 @@ nav {
 
 /* Overlay for mobile navigation and close button */
 .overlay-nav {
-  background-color: #cdcec0;
+  background-color: rgba(11, 32, 39, 1);
   z-index: 999;
   min-width: 100%;
   height: 100%;
@@ -1082,4 +1122,8 @@ nav {
 
 footer {
   background-color: #7a7f82;
+}
+
+.lefoot {
+  background-color: rgba(184, 12, 9, 1);
 }

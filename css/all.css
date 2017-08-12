@@ -37,14 +37,23 @@ summary {
   background-color: rgba(32, 122, 101, 1) !important;
 }
 
-/*.intro_info .overlay-nav {
-  z-index: 3;
-}*/
+.main_intro {
+  z-index: 4;
+  height: 100%;
+}
+
+.intro_info {
+  top: -100px !important;
+}
 
 .about_info {
   background-color: rgba(222, 229, 229, 1);
 }
 
+.photo {
+  width: 100%;
+  height: 100%;
+}
   /*.about-para{
     width: 75% !important;
     height: 75% !important;
@@ -855,7 +864,7 @@ img:hover {
 }
 
 .container {
-  height: 100%;
+  height: 75%;
 }
 
 @media (min-width: 12.5em) {

@@ -14,6 +14,7 @@
     <!-- Style sheets-->
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/mountains.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- font links -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -25,12 +26,15 @@
 
     <!-- scripts -->
     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/main.js" charset="utf-8"></script>
 
 
   </head>
   <body>
     <header class="my_name">
+
+    <div class="main_intro">
       <div class="overlay-nav hidden">
         <ul class="mobile">
           <li><a href="/">HOME</a></li>
@@ -46,9 +50,8 @@
         </ul>
         <div class="close"></div>
       </div>
-      <div class="" class="container">
-        <div id="logo"></div>
-        <nav><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
+      <div class="container">
+        <nav class="nav navbar-nav navbar-right"><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
           <ul class="in">
             <li><a href="/">HOME</a></li>
           </ul>
@@ -66,50 +69,53 @@
         <div class="intro_info">
           <h1 id="jumbotron">Hi, I'm Quinn</h1>
           <h2 id="supporting-header">Sydney, Australia</h2>
-          <h2 id="supporting-header">Junior Full Stack Web Developer</h2>
+          <h2 id="supporting-header">Junior Web Developer</h2>
         </div>
+        <!-- MOUNTAINS  -->
 
-      <!-- MOUNTAINS  -->
-
-        <div class="bg">
-          <div class="mountain">
-            <div class="mountain-top">
-              <div class="mountain-cap-1"></div>
-              <div class="mountain-cap-2"></div>
-              <div class="mountain-cap-3"></div>
-            </div>
+        <div class="mountain">
+          <div class="mountain-top">
+            <div class="mountain-cap-1"></div>
+            <div class="mountain-cap-2"></div>
+            <div class="mountain-cap-3"></div>
           </div>
-          <div class="mountain-two">
-            <div class="mountain-top">
-              <div class="mountain-cap-1"></div>
-              <div class="mountain-cap-2"></div>
-              <div class="mountain-cap-3"></div>
-            </div>
-          </div>
-           <div class="mountain-three">
-            <div class="mountain-top">
-              <div class="mountain-cap-1"></div>
-              <div class="mountain-cap-2"></div>
-              <div class="mountain-cap-3"></div>
-            </div>
-          </div>
-          <div class="cloud"></div>
         </div>
+        <div class="mountain-two">
+          <div class="mountain-top">
+            <div class="mountain-cap-1"></div>
+            <div class="mountain-cap-2"></div>
+            <div class="mountain-cap-3"></div>
+          </div>
+        </div>
+        <div class="mountain-three">
+          <div class="mountain-top">
+            <div class="mountain-cap-1"></div>
+            <div class="mountain-cap-2"></div>
+            <div class="mountain-cap-3"></div>
+          </div>
+        </div>
+        <div class="cloud"></div>
+
+      </div>
 
 
       </div>
     </header>
 
     <section>
-      <div class="about_info" class="container" >
+      <div class="about_info" class="container">
         <h1 class="port">About Me</h1>
-        <div class="self-pic"><img src="" alt=""></div>
-        <!-- Change paragraph text here, add subheadings by using h2 or h3 tags -->
-          <div class="" class="me_description">
-            <p class="about-para">I am a junior full stack web developer that is energised by bringing new ideas to life, creatively working through complex problems, and the sense of achievement when finishing a project. The changing and evolving world of code matches my passion of learning and each day offers me new avenues to explore and new ways of thinking to improving myself and my work.</p>
-            <p class="about-para">Coming from the fast paced, hard working and goal driven world of Red Bull where I developed my skills around creativity, people management, communication, analysis and project management.</p>
-            <p class="about-para">I aim to create the highest quality web applications grounded best practice code and back with data and insight.</p>
-            <div class="about-para" class="text-change" class="icons">
+          <div class="port row" class="me_description">
+            <div class="photo col-md-4">
+              <img src="img/headshot.jpg" alt="">
+            </div>
+            <div class="col-md-8">
+              <p class="about-para">I am a junior full stack web developer that is energised by bringing new ideas to life, creatively working through complex problems, and the sense of achievement when finishing a project. The changing and evolving world of code matches my passion of learning and each day offers me new avenues to explore and new ways of thinking to improving myself and my work.</p>
+              <p class="about-para">Coming from the fast paced, hard working and goal driven world of Red Bull where I developed my skills around creativity, people management, communication, analysis and project management.</p>
+              <p class="about-para">I aim to create the highest quality web applications grounded best practice code and back with data and insight.</p>
+            </div>
+
+            <div class="about-para col-md-12" class="text-change" class="icons">
               <i class="devicon-backbonejs-plain-wordmark"></i>
               <i class="devicon-bootstrap-plain-wordmark"></i>
               <i class="devicon-css3-plain-wordmark"></i>
@@ -126,22 +132,38 @@
         </div>
       </div>
     </section>
-    <section class="projects">
-      <!-- -->
+
+    <!-- <section>
+      <div class="about_info" class="container">
+        <h1 class="port">WORK HISTORY</h1>
+          <div class="port row" class="me_description">
+
+            <div class="col-md-8">
+              <p class="about-para">RED BULL</p>
+              <p class="about-para">University</p>
+              <p class="about-para">Other</p>
+            </div>
+
+            <div class="col-md-4"></div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="projects col-md-12">
       <h2 class="projects" class="port">PROJECTS</h2>
       <div class="container">
         <div class="flex">
-
-          <figure id="one">
+          <figure id="one" class="col-md-6">
             <figcaption id="img1" class="overlay">TREKR</figcaption><a href="" target="_blank"><img src="" alt=""></a>
           </figure>
-          <figure id="two">
+          <figure id="two" class="col-md-6">
             <figcaption id="img2" class="overlay">SENTI</figcaption><a href="" target="_blank"><img src="" alt=""></a>
           </figure>
-          <figure id="three">
+          <figure id="three" class="col-md-6">
           <figcaption id="img3" class="overlay">CLAIM</figcaption><a href="" target="_blank"><img src="" alt=""></a>
         </figure>
-        <figure id="four">
+        <figure id="four" class="col-md-6">
           <figcaption id="img4" class="overlay">TICK TACK TOE</figcaption><a href="" target="_blank"><img src="" alt=""></a>
         </div>
 
@@ -150,11 +172,11 @@
     <section class="grey">
       <div class="container">
         <!-- edit this h2 and paragraph text here!-->
-        <h2 class="contact">CONTACT</h2>
-        <a href="mailto:q.stobbs@gmail.com" class="contact-button">Email Me!</a>
-        <a href="" class="contact-button">Download Resume</a>
-        <div class="flex">
-          <div class="social-media"><a href="#">GitHub</a><a href="#">LinkedIn</a><a href="#">General Assembly</a>
+        <h2 class="contact col-md-12">CONTACT</h2>
+        <a href="mailto:q.stobbs@gmail.com" class="contact-button col-md-12">Email Me!</a>
+        <a href="" class="contact-button col-md-12">Download Resume</a>
+        <div class="flex col-md-12">
+          <div class="social-media"><a href="#" class="col-md-4">GitHub</a><a href="#" class="col-md-4">LinkedIn</a><a href="#" class="col-md-4">General Assembly</a>
           </div>
         </div>
       </div>

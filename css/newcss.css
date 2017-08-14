@@ -15,6 +15,7 @@
   background-color: rgba(253, 255, 252, 1) !important;
   text-align: center;
   position: relative;
+  margin-top: 10%
 }
 
 #meid {
@@ -27,6 +28,7 @@
 
 .icons{
   font-size: 300%;
+  margin-bottom: 4%;
 }
 
 h1 {
@@ -69,6 +71,10 @@ h1 {
   margin-top: 225px;
   z-index: 2;
   position: relative;
+}
+
+#headshot {
+  width: 20% !important;
 }
 
 /* PARTICLES */

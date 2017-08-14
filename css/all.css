@@ -35,6 +35,14 @@ summary {
 
 .my_name {
   background-color: rgba(32, 122, 101, 1) !important;
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.me_description {
+  text-align: center;
 }
 
 .main_intro {

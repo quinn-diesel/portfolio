@@ -85,6 +85,7 @@ sub {
 }
 img {
   border: 0;
+  width: 75%
 }
 svg:not(:root) {
   overflow: hidden;
@@ -4493,8 +4494,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: rgba(1, 22, 39, 1);
+  border-color: rgba(1, 22, 39, 1);
 }
 .navbar-default .navbar-brand {
   color: #777;

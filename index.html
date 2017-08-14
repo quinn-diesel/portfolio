@@ -20,21 +20,28 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+  <link rel="stylesheet" type='text/css' href="css/jquery.fullPage.css">
+
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
   <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 
 </head>
+
+
 <body>
+
   <section class="page-header my_name">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="btn btn-default navbar-btn">HOME </button>
-          <button type="button" class="btn btn-default navbar-btn">ABOUT </button>
-          <button type="button" class="btn btn-default navbar-btn">PROJECTS </button>
-          <button type="button" class="btn btn-default navbar-btn">CONTACT </button>
+          <button id="home" type="button" class="btn btn-default navbar-btn"><a href="section0">HOME </a></button>
+          <button id="about" type="button" class="btn btn-default navbar-btn"<a href="meid">ABOUT </a></button>
+          <button id="project_info" type="button" class="btn btn-default navbar-btn">PROJECTS </button>
+          <button id="contact_info" type="button" class="btn btn-default navbar-btn">CONTACT </button>
         </div>
       </div>
     </nav>
@@ -62,7 +69,7 @@
 
 
   <section id="meid" class="me_description">
-    <div class="about_info" class="container">
+    <div class="about_info">
       <h1>About Me</h1>
         <div class="col-md-8">
           <h2>Who I am professionally</h2>
@@ -76,8 +83,8 @@
             <img class="headshot" class"col-md-4" src="img/headshot.jpg" alt="">
           </div>
 
-
-          <div class="OOO col-md-12">
+        <div class='out-office'>
+          <div class="OOO">
             <img id="skishot" class="headshot col-md-4" src="img/ski shot.jpg" alt="">
             <div>
               <h1>Outside the Office</h1>
@@ -106,6 +113,9 @@
               <i class="devicon-html5-plain"></i>
             </div>
           </div>
+
+        </div>
+
       </div>
   </section>
 
@@ -166,29 +176,30 @@
       <h2>Student Brand manager</h2>
   </section> -->
 
-  <section class="contact">
-    <div>
+  <footer class="col-md-12">
+    <section class="contact">
       <h2 class="contact col-md-12">CONTACT ME!</h2>
       <h3 class="contact col-md-12">You have so many options:</h3>
-        <button type="button" class="btn btn-default btn"> Phone: +61 423 669 269
-        </button>
-        <button type="button" class="btn btn-default btn"> <a href="mailto:q.stobbs@gmail.c">Email Me!
-        </button>
-        <button type="button" class="btn btn-default btn"> <a href="img/resume.pdf" download="Resume"> Download Resume
-        </button>
-        <button type="button" class="btn btn-default btn"> <a href="https://github.com/quinndrick">GitHub</a>
-        </button>
-        <button type="button" class="btn btn-default btn"><a href="https://www.linkedin.com/in/quinn-stobbs/" >LinkedIn</a>
-        </button>
-        <button type="button" class="btn btn-default btn"> <a href="https://profiles.generalassemb.ly/profiles/quinn-stobbs">General Assembly</a>
-        </button>
-    </div>
-  </section>
+      <button type="button" class="btn btn-default btn"> Phone: +61 423 669 269
+      </button>
+      <button type="button" class="btn btn-default btn"> <a href="mailto:q.stobbs@gmail.c">Email Me!
+      </button>
+      <button type="button" class="btn btn-default btn"> <a href="img/resume.pdf" download="Resume"> Download Resume
+      </button>
+      <button type="button" class="btn btn-default btn"> <a href="https://github.com/quinndrick">GitHub</a>
+      </button>
+      <button type="button" class="btn btn-default btn"><a href="https://www.linkedin.com/in/quinn-stobbs/" >LinkedIn</a>
+      </button>
+      <button type="button" class="btn btn-default btn"> <a href="https://profiles.generalassemb.ly/profiles/quinn-stobbs">General Assembly</a>
+      </button>
+    </section>
+  </footer>
 
 
   <script src="js/particle2.js"></script>
-  <script src="js/particle.js"></script>
   <script src="js/jquery.js"></script>
+  <script src="js/realjs.js"></script>
+  <script src='js/jquery.fullPage.js'></script>
   <!-- <script src="js/main.js"></script> -->
 
 

@@ -18,12 +18,9 @@
   margin-top: 2%;
 }
 
-/*#meid {
-  min-height: 200%;
-}*/
 
 .about_info {
-  padding-top: 12.5%;
+  padding-top: 6%;
 }
 
 .outside {
@@ -59,7 +56,12 @@ h1 {
 }
 
 a {
-  color: black !important;
+  color: white !important;
+}
+
+.out-office {
+  background-color: white;
+  margin-top: 0;
 }
 
 .work-history {
@@ -86,7 +88,7 @@ a {
 .intro {
   margin-top: 225px;
   z-index: 2;
-  position: relative;
+  position: relative !important;
 }
 
 .headshot {

@@ -14,10 +14,10 @@
     <!-- Style sheets-->
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/mountains.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <!-- font links -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
     <link rel="manifest" href="/manifest.json">
     <!-- Link to icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -32,12 +32,13 @@
 
   </head>
   <body>
+
     <header class="my_name">
 
     <div class="main_intro">
       <div class="overlay-nav hidden">
         <ul class="mobile">
-          <li><a href="/">HOME</a></li>
+          <li><a href="#">HOME</a></li>
         </ul>
         <ul class="mobile">
           <li><a href="#" class="about">ABOUT</a></li>
@@ -53,7 +54,7 @@
       <div class="container">
         <nav class="nav navbar-nav navbar-right"><a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
           <ul class="in">
-            <li><a href="/">HOME</a></li>
+            <li><a href="#">HOME</a></li>
           </ul>
           <ul class="in">
             <li><a href="#" class="about">ABOUT</a></li>
@@ -115,7 +116,7 @@
               <p class="about-para">I aim to create the highest quality web applications grounded best practice code and back with data and insight.</p>
             </div>
 
-            <div class="about-para col-md-12" class="text-change" class="icons">
+            <div class="about-para col-md-12 icons" class="text-change" class="icons">
               <i class="devicon-backbonejs-plain-wordmark"></i>
               <i class="devicon-bootstrap-plain-wordmark"></i>
               <i class="devicon-css3-plain-wordmark"></i>
@@ -132,6 +133,29 @@
         </div>
       </div>
     </section>
+
+    <section class="projects col-md-12">
+      <h2 class="projects" class="port">PROJECTS</h2>
+      <div class="container">
+        <div class="flex">
+          <figure id="one" class="col-md-6">
+            <figcaption id="img1" class="overlay">TREKR</figcaption>
+            <p class="overlay col-md-6">Hiking App to draw, discovery and track hikes around the world.</p>
+            <a href="" target="_blank"><img src="img/trek3.jpg" alt=""></a>
+          </figure>
+          <figure id="two" class="col-md-6">
+            <figcaption id="img2" class="overlay">SENTI</figcaption><a href="" target="_blank"><img src="img/senti 2.jpg" alt=""></a>
+          </figure>
+          <figure id="three" class="col-md-6">
+          <figcaption id="img3" class="overlay">CLAIM</figcaption><a href="" target="_blank"><img src="img/claim 1.jpg" alt=""></a>
+        </figure>
+        <figure id="four" class="col-md-6">
+          <figcaption id="img4" class="overlay">TICK TACK TRON</figcaption><a href="" target="_blank"><img src="img/tic tack toe.jpg" alt=""></a>
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- <section>
       <div class="about_info" class="container">
@@ -150,34 +174,17 @@
     </section> -->
 
 
-    <section class="projects col-md-12">
-      <h2 class="projects" class="port">PROJECTS</h2>
-      <div class="container">
-        <div class="flex">
-          <figure id="one" class="col-md-6">
-            <figcaption id="img1" class="overlay">TREKR</figcaption><a href="" target="_blank"><img src="" alt=""></a>
-          </figure>
-          <figure id="two" class="col-md-6">
-            <figcaption id="img2" class="overlay">SENTI</figcaption><a href="" target="_blank"><img src="" alt=""></a>
-          </figure>
-          <figure id="three" class="col-md-6">
-          <figcaption id="img3" class="overlay">CLAIM</figcaption><a href="" target="_blank"><img src="" alt=""></a>
-        </figure>
-        <figure id="four" class="col-md-6">
-          <figcaption id="img4" class="overlay">TICK TACK TOE</figcaption><a href="" target="_blank"><img src="" alt=""></a>
-        </div>
-
-      </div>
-    </section>
     <section class="grey">
       <div class="container">
         <!-- edit this h2 and paragraph text here!-->
         <h2 class="contact col-md-12">CONTACT</h2>
-        <a href="mailto:q.stobbs@gmail.com" class="contact-button col-md-12">Email Me!</a>
-        <a href="" class="contact-button col-md-12">Download Resume</a>
+          <a class="contact-button col-md-4">Phone: +61 423 669 269</a>
+          <a href="mailto:q.stobbs@gmail.com" class="contact-button col-md-4">Email Me!</a>
+          <a href="" class="contact-button col-md-4">Download Resume</a>
         <div class="flex col-md-12">
-          <div class="social-media"><a href="#" class="col-md-4">GitHub</a><a href="#" class="col-md-4">LinkedIn</a><a href="#" class="col-md-4">General Assembly</a>
-          </div>
+            <a href="#" class="contact-button col-md-4">GitHub</a>
+            <a href="https://www.linkedin.com/in/quinn-stobbs/" class="contact-button col-md-4">LinkedIn</a>
+            <a href="#" class="contact-button col-md-4">General Assembly</a>
         </div>
       </div>
     </section>

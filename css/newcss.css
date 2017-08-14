@@ -15,20 +15,25 @@
   background-color: rgba(253, 255, 252, 1) !important;
   text-align: center;
   position: relative;
-  margin-top: 10%
+  margin-top: 2%;
 }
 
-#meid {
-  min-height: 700px;
-}
+/*#meid {
+  min-height: 200%;
+}*/
 
 .about_info {
   padding-top: 12.5%;
 }
 
+.outside {
+  text-align: center;
+}
+
 .icons{
   font-size: 300%;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
+  margin-top: 0;
 }
 
 h1 {
@@ -42,15 +47,19 @@ h1 {
 }
 
 .contact {
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
+  background-color: rgba(5, 102, 141, 1) !important;
+  color: white;
 }
+
 
 .work-history {
   text-align: center;
   background-color: rgba(231, 29, 54, 1);
   color: white;
 }
-
 
 .navbar {
   display: inline-block !important;
@@ -73,9 +82,20 @@ h1 {
   position: relative;
 }
 
-#headshot {
+.headshot {
   width: 20% !important;
 }
+
+#skishot {
+  width: 30% !important;
+}
+
+.OOO {
+  margin-top: 8%;
+}
+
+
+
 
 /* PARTICLES */
 

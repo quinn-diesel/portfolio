@@ -57,7 +57,16 @@ summary {
 }
 
 .icons{
-  font-size: 6rem;
+  font-size: 300%;
+}
+
+.icon-two {
+  font-size: 200%;
+}
+
+.descript {
+  color: white !important;
+  font-size: 100 !important;
 }
   /*.about-para{
     width: 75% !important;
@@ -74,6 +83,9 @@ summary {
   padding: 1px;
 }
 
+#headshot {
+  width: 23%:
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.

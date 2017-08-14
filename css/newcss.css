@@ -14,7 +14,15 @@
 .me_description {
   background-color: rgba(253, 255, 252, 1) !important;
   text-align: center;
-  min-height: 300px;
+  position: relative;
+}
+
+#meid {
+  min-height: 700px;
+}
+
+.about_info {
+  padding-top: 12.5%;
 }
 
 .icons{
@@ -60,6 +68,7 @@ h1 {
 .intro {
   margin-top: 225px;
   z-index: 2;
+  position: relative;
 }
 
 /* PARTICLES */

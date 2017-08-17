@@ -4,7 +4,7 @@
   color: white;
   height: 100%;
   width: 100%;
-  min-height: 700px;
+  min-height: 780px;
 }
 
 .page-header {
@@ -51,7 +51,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  background-color: rgba(5, 102, 141, 1) !important;
+  backgrcdound-color: rgba(5, 102, 141, 1) !important;
   color: white;
 }
 
